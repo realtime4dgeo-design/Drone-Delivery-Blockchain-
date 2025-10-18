@@ -1,0 +1,16 @@
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+
+module.exports = {
+  solidity: "0.8.20",
+  networks: {
+    sepolia: {
+      url: process.env.ETHEREUM_RPC_URL,
+      accounts: [process.env.PRIVATE_KEY],
+      chainId: 11155111,
+    },
+    hardhat: {
+      chainId: 1337,
+    },
+  },
+};

@@ -1,0 +1,36 @@
+# Contributing to 4DGeo Drone Delivery
+
+Thanks for your interest in contributing! We aim to keep this project open, collaborative, and focused on decentralized, privacy-first drone tech.
+
+## How to Contribute
+
+1. **Report Bugs or Suggest Features**: Open an [issue](https://github.com/yourusername/4dgeo-drone-delivery/issues) with details (e.g., steps to reproduce, expected vs. actual behavior).
+
+2. **Development Setup**:
+   - Fork the repo and clone your fork.
+   - Install dependencies: `yarn install`.
+   - Set up `.env` from `.env.example`.
+   - Run locally: `yarn start` (frontend) and `npx hardhat node` (blockchain testnet).
+
+3. **Code Style**:
+   - Use ESLint/Prettier (integrated in package.json).
+   - Solidity: Follow [OpenZeppelin guidelines](https://docs.openzeppelin.com/contracts/5.x/).
+
+4. **Pull Requests**:
+   - Branch from `main`: `git checkout -b feat/your-feature`.
+   - Commit atomically: `git commit -m "feat: add decentralized payment flow"`.
+   - Include tests and update docs/README.
+   - Reference related issues: `fixes #123`.
+
+5. **Testing**:
+   - Frontend: `yarn test`.
+   - Blockchain: `npx hardhat test`.
+   - Drone sim: Run `scripts/simulate-delivery.js`.
+
+## Code of Conduct
+We follow the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Harassment-free zone.
+
+## Questions?
+Join [GitHub Discussions](https://github.com/yourusername/4dgeo-drone-delivery/discussions) or ping [@yourusername](https://x.com/yourusername).
+
+Happy hacking! 🚀
